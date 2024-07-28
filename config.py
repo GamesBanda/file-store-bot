@@ -29,7 +29,7 @@ ADMINS = int(environ.get("ADMINS", "5207748612"))
 # Database Information
 CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
 CDB_NAME = environ.get("CDB_NAME", "")
-DB_URI = environ.get("DB_URI", "mongodb+srv://Krlove:kumar12321@cluster0.tsl2qwq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = environ.get("DB_URI", "mongodb+srv://punitprabhat9:7!vx3y8WLrV_5GC@cluster0.5nhl4c0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = environ.get("DB_NAME", "Cluster0")
 
 
@@ -84,8 +84,3 @@ class Var(object):
         URL = "https://file-store-bot-c9e2.onrender.com"
     else:
         URL = "https://file-store-bot-c9e2.onrender.com"
-
-
-
-
-    
