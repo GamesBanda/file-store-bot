@@ -217,7 +217,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                         InlineKeyboardButton('🚀 New Anime Update🖥️', url="https://t.me/HdsxSupportTeam_Bot")]
+                         InlineKeyboardButton('😊 Support Team 🖥️', url="https://t.me/HdsxSupportTeam_Bot")]
                     ]
                 )
             ) 
@@ -225,7 +225,7 @@ async def start(client, message):
             await asyncio.sleep(AUTO_DELETE_TIME)
             await msg.delete()
             await g.delete()
-            await k.edit_text("<b>Your File/Video is successfully deleted!!! You Want Again [Get it from Here](https://t.me/HDSX_Media_xyz).</b>")
+            await k.edit_text("<b>Your File/Video is successfully deleted!!! You Want Again [Get Here](https://t.me/HDSX_Media_xyz).</b>")
             await m.edit_text("<b>❤️‍🔥.</b>")
             await asyncio.sleep(1)
             await m.delete()
